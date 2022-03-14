@@ -1,4 +1,5 @@
 @import url(fonts/fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /* Generated rules from HTML.pm centralized here */
 a.summary-letter {text-decoration: none}
@@ -22,8 +23,8 @@ span.sansserif {font-family:sans-serif; font-weight:normal}
 ul.no-bullet {list-style: none}
 
 html {
-  font-family: "Linux Libertine O", serif;
-  font-size: 170%; /* 100% for epub */
+  font-family: "Lora", "Linux Libertine O", serif;
+  font-size: 135%; /* 100% for epub */
   color: #383838;
   line-height: 130%;
   /* 'liga' turns on ligatures, 'ss06' picks alternate ampersand */
@@ -57,14 +58,14 @@ html {
 }
 
 body {
-  background-color: #f8f8f8;
+  background-color: #fff9e7;
   margin: 0;
   position: relative;
 }
 
 section {
   margin: 1em auto;
-  width: 67ex;
+  width: 63ex;
   max-width: 88%;
 }
 
@@ -172,12 +173,17 @@ pre, pre code, pre var {
   line-height: 150%;
 }
 
+.lisp pre {
+  background: #f0f0f0;
+  padding: .7ex;
+}
+
 .lisp .MathJax {
-  color: #606060; 
+  color: #606060;
 }
 
 .roman .MathJax {
-  color: #a07040; 
+  color: #a07040;
 }
 
 p, table.menu, div.lisp {
@@ -207,13 +213,25 @@ a#UTF ~ p > i:last-child {
 }
 
 a[href] {
-  color: #804040;
+  color: #088486;
   text-decoration: none;
 }
 
+a[href]:visited {
+   color: #1AA481;
+}
+
+a[href]:hover {
+	color: #14A49B;
+}
+
+a[href]:active {
+	color: #14B174 ;
+}
+
 a[href] > sup {
-  font-size: 78%; 
-  vertical-align: top; 
+  font-size: 70%;
+  vertical-align: top;
   position: relative;
   top: -0.4ex;
   margin: -2ex;
@@ -467,6 +485,7 @@ a#References ~ p {
 
 .jump {
   font-family: "DejaVu-Arrows";
+  margin: .5rem;
   font-size: 2rem;
   font-weight: bold;
   position: fixed; /* comment out when generating epub */
