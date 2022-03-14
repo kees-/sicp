@@ -69,7 +69,7 @@ section {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Linux Biolinum O", sans-serif; 
+  font-family: "Linux Biolinum O", sans-serif;
   margin-top: 1.6em;
   margin-bottom: 1.0rem;
   line-height: 125%;
@@ -87,25 +87,25 @@ h2.unnumbered {
 h3.section {
   margin-top: 2em;
 }
-  
+
 strong {
-  font-family: "Linux Biolinum O", sans-serif; 
+  font-family: "Linux Biolinum O", sans-serif;
 }
 
 h1 { font-size: 1.88rem; }
 
-h1.titlefont { 
-  margin-top: 5em; 
-  margin-bottom: 1em; 
-  line-height: 120%; 
+h1.titlefont {
+  margin-top: 5em;
+  margin-bottom: 1em;
+  line-height: 120%;
 }
 
 /* Hide the Info style node menu that has been
    made redundant by table of contents */
-h1.node-heading, 
-h1.node-heading + table.menu, 
+h1.node-heading,
+h1.node-heading + table.menu,
 a[name="Top"] + nav.header {
-  display: none; 
+  display: none;
 }
 
 h2 { font-size: 1.57rem; line-height: 110%; }
@@ -163,7 +163,7 @@ h5 code { font-size: 0.82rem; }
 }
 
 pre, code, tt, samp {
-  font-family: "Inconsolata LGC", "DejaVu Sans Mono", monospace; 
+  font-family: "Inconsolata LGC", "DejaVu Sans Mono", monospace;
   font-size: 0.8rem;
 }
 
@@ -225,7 +225,7 @@ a[href]:-webkit-any-link > sup {
 }
 
 nav.header p {
-  font-family: "Linux Biolinum O", sans-serif; 
+  font-family: "Linux Biolinum O", sans-serif;
   font-size: 0.9rem;
   padding: 0.5em;
   margin: 0;
@@ -242,7 +242,7 @@ nav.header:last-of-type {
 }
 
 span.roman {
-  font-family: "Linux Libertine O", serif; 
+  font-family: "Linux Libertine O", serif;
   font-size: 0.96rem;
 }
 
@@ -321,7 +321,7 @@ table.menu td {
 }
 
 h2 ~ p:first-of-type:first-line, abbr {
-  font-family: "Linux Libertine O", serif; 
+  font-family: "Linux Libertine O", serif;
   letter-spacing: 0.04em;
   -moz-font-feature-settings: "onum", "c2sc", "smcp";
   -ms-font-feature-settings: "onum", "c2sc", "smcp";
@@ -375,7 +375,7 @@ a.cover figure {
 a.cover object {
   position: relative;
   z-index: -1;
-  width: 100%; 
+  width: 100%;
   height: auto;
   background-color: #fbfbfb;
 }
@@ -435,7 +435,7 @@ mtext, mi[mathvariant="normal"], mi[_moz-math-font-style="normal"] {
 }
 math *[mathvariant="monospace"] {
   font-size: 0.8rem;
-  font-family: "Inconsolata LGC", monospace; 
+  font-family: "Inconsolata LGC", monospace;
 }
 
 .faulty {
@@ -481,12 +481,12 @@ a#References ~ p {
   padding: 1.5ex;
 }
 
-.top { 
-  top: 0; 
+.top {
+  top: 0;
   padding: 0.7ex 0.0ex;
 }
 
-.bottom { 
-  bottom: 0; 
+.bottom {
+  bottom: 0;
   padding: 0.4ex 0.0ex;
 }
